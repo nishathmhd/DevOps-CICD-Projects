@@ -1,4 +1,4 @@
-# GitLab Practice Project: Python Demo App
+# GitLab Practice Project: Run - Build imgae - Push - Deploy
 
 This repository is a GitLab practice project based on the fork of [benc-uk/python-demoapp](https://github.com/benc-uk/python-demoapp.git). The goal is to demonstrate setting up a CI/CD pipeline using GitLab CI/CD features.
 
