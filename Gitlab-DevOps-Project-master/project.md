@@ -11,33 +11,33 @@ I started by running the following command to check how the tests for this speci
 ```bash
 make test
 ```
-<img width="738" alt="step 1" src="https://github.com/nishathmhd/Gitlab-DevOps-Project/assets/117710744/a0d8f37a-648f-4584-8bb4-91648b9d33b7">
+<img width="738" alt="step 1" src="https://github.com/nishathmhd/DevOps-CICD-Projects/assets/117710744/e0172e12-3efd-4554-a3c1-5f93472b7205">
 
 
 ### Step 2: Pipeline Configuration
 
 I created a pipeline configuration file named `.gitlab-ci.yml`. This file defines the stages, jobs, and steps for the CI/CD process.
 
-<img width="444" alt="crteated yaml file" src="https://github.com/nishathmhd/Gitlab-DevOps-Project/assets/117710744/6c6c2ddf-6e7f-4e70-82bb-14aea7f8903f">
+<img width="444" alt="crteated yaml file" src="https://github.com/nishathmhd/DevOps-CICD-Projects/assets/117710744/355631e2-d854-4322-9e05-20666bf34634">
 
 
 ### Step 3: Running Tests
 
 In GitLab, I created jobs in the pipeline to run tests, build the Docker image, and deploy the application. Here's an overview of how the tests were run:
 
-<img width="427" alt="gitlab jobs" src="https://github.com/nishathmhd/Gitlab-DevOps-Project/assets/117710744/ffa55f93-65c2-415e-b2e3-3b6ea4ec3c4b">
+<img width="427" alt="gitlab jobs" src="https://github.com/nishathmhd/DevOps-CICD-Projects/assets/117710744/53d438f4-af2a-46ec-81aa-665ab9046cdb">
 
 
 ### Step 4: Building and Pushing Docker Image
 
 I set up Docker Hub to push the created Docker image. This involved configuring authentication and pushing the image to the Docker Hub registry.
 
-<img width="738" alt="Docker hub" src="https://github.com/nishathmhd/Gitlab-DevOps-Project/assets/117710744/cd95b538-2082-40d9-95f2-eebbdd1fb39a">
 
+<img width="738" alt="Docker hub" src="https://github.com/nishathmhd/DevOps-CICD-Projects/assets/117710744/a51dc0f2-ea8b-4f78-9622-b1f70bb6f3e5">
 
 ### Step 5: Writing Pipeline Configuration
 
 I defined the pipeline configuration in `.gitlab-ci.yml`, specifying the necessary steps to build, test, and deploy the application. This included defining stages such as `test`, `build`, and `deploy`, along with corresponding job configurations.
 
-<img width="394" alt="Write Pipleline Confifration" src="https://github.com/nishathmhd/Gitlab-DevOps-Project/assets/117710744/99f0a12f-a454-47b2-b3e9-5c97e43a42a7">
+<img width="394" alt="Write Pipleline Confifration" src="https://github.com/nishathmhd/DevOps-CICD-Projects/assets/117710744/9d75b0b3-660c-4134-912f-9d467e73c0c6">
 
